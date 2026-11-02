@@ -1,0 +1,15 @@
+[project]
+name = "finance-os"
+version = "2.0.0"
+description = "Gestão financeira local para profissionais e pequenos negócios"
+requires-python = ">=3.12"
+authors = [{name = "Pedro Martelli"}]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--strict-markers"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

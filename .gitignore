@@ -1,0 +1,56 @@
+# Ambientes Python locais
+.venv/
+.venv-*/
+venv/
+venv-*/
+env/
+.env/
+
+# Cache, testes e arquivos gerados
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Bancos e cópias de segurança locais
+*.db
+*.db-*
+*.sqlite*
+*.bak
+*.backup
+.finance-os/
+.finance-os-*/
+data/
+database/
+backups/
+backups-*/
+finance-os-backup*.json
+finance-os-extrato*.csv
+finance-os-????-??.csv
+finance-os-relatorio-*.html
+*.zip
+
+# Credenciais e configurações privadas
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+*.pem
+*.key
+
+# Editor, sistema e prévias locais
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+package.json
+scripts/preview.sh

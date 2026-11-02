@@ -1,0 +1,10 @@
+services:
+  finance-os:
+    build: .
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - finance-os-data:/data
+    restart: unless-stopped
+volumes:
+  finance-os-data:

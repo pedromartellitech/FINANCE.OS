@@ -1,0 +1,20 @@
+FINANCE OS — ATUALIZAÇÃO ANTIGAFUTURISTICA
+
+1. Pare o sistema com Ctrl + C.
+2. Copie aplicar_visual_retrofuturista.py e a pasta tema-retrofuturista para C:\finance-os.
+3. No Prompt, execute:
+
+C:\finance-os\.venv-nova\Scripts\python.exe C:\finance-os\aplicar_visual_retrofuturista.py
+
+4. Quando terminar sem erro, abra:
+
+C:\finance-os\.venv-nova\Scripts\python.exe C:\finance-os\launcher.py --demo
+
+5. No navegador, use Ctrl + F5.
+
+O menu automático antigo fica oculto. São aplicadas apenas alterações visuais.
+O instalador preserva nomes e textos que você já personalizou.
+As cópias dos arquivos anteriores ficam em backups-visuais.
+Use o ambiente .venv-nova que já funcionou; não é preciso instalar novos pacotes.
+
+Instruções completas em docs/ATUALIZACAO_VISUAL.md, no projeto completo.
